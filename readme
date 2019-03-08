@@ -1,0 +1,19 @@
+Some notes about the course:
+
+State:
+======
+State lives in your App component and is tied to the Firebase
+
+Props:
+======
+Parent Components pass variables, functions, etc to their children, these live in props on the children.
+
+Router:
+=======
+Routes point to what component should be rendered.
+
+<Route exact path="/" component={*component*} />
+  > exact: matches exactly
+
+<Route path="/somePath/:*variable*" component={*component*} />
+  > :*variable* passes the variable to the component via props.match.*variable*
